@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <style>
+            body{
+                text-transform: capitalize;
+                background-color: black;
+                color: silver;
+                height: 200vh;
+            }
+            .navba ul{
+                display:flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .navba{
+                opacity:0;
+            }
+            li,a{
+                font-size:30px;
+                color:silver;
+                text-decoration: none;
+                list-style-type: none;
+            }
+
+            .line{
+                width:10%;
+                opacity:0.5;
+                height:1px;
+                background-color:silver;
+            }
+            .heading{
+                font-size:50px;
+                text-align: center;
+                opacity: 0;
+                position:fixed;
+                margin-left:35%;
+            }
+            .cont,.cont1,.cont2,.endl{
+                margin: 150px;
+                font-size: 50px;
+                opacity:0;
+            }
+            .cont,.cont2{
+                float:left;
+                width:45%;
+                margin-bottom: 120px;
+                background-color: rgba(25, 25, 25, 0.534);
+                border-radius: 55px;
+                padding:10px 40px;
+            }
+            .cont1{
+                float:right;
+                margin-bottom: 120px;
+                width:45%;
+                background-color: rgba(25, 25, 25, 0.534);
+                border-radius: 55px;
+                padding:10px 40px;
+            }
+            .endl{
+                border-radius: 50px;
+                padding: 20px 30px;
+                background-color: rgba(25, 25, 25, 0.534);
+                text-align: center;
+                margin-top: 120px;
+                clear: both;
+                font-size: 30px;
+                opacity: 0;
+            }
+            .clear{
+                clear:both;
+            }
+            .hl{
+                border-radius: 25px;
+                width:7px;
+                height:5px;
+                background-color: silver;
+            }
+            button{
+                height: 50px;
+                width: 200px;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="navba">
+            <ul>
+                <div class="navba"><li><a href="">Home</a></li></div>
+                <div class="navba"><li><a href="">About</a></li></div>
+                <div class="navba"><li><a href="">Contact</a></li></div>
+            </ul>
+        </div>
+    
+        <div class="line"></div><br>
+    
+        <div class="heading">
+            <h2>GQG's Champagne</h2>
+        </div><br>
+        
+        <div class="section">
+            
+            <div class="cont">
+                <div class="hl"></div>
+                <p><b>Worlds finest Champagne!</b><br><br><i style="font-size: 25px;">Every bottle is designed<br> <br>to turn moments into memories.</i></p>
+            </div><br><br>
+    
+            <div class="cont1">
+                <div class="hl"></div>
+                <p><b>Golden Bubbles of Luxury</b><br><br><i style="font-size: 25px;">Fine,Smooth and endless sparkling<br><br>Champagne that speaks victory.</i></p>
+            </div><br><br>
+    
+            <div class="cont2">
+                <div class="hl"></div>
+                <p><b>Hand-picked Grapes</b><br><br><i style="font-size: 25px;">Harvested from premium vineyards for unmatched purity<br><br>a true timeless champagne made with modern craftmanship.</i></p>
+            </div><br><br>
+        
+            <div class="clear"></div>
+            <div class="endl">
+                <div class="hl"></div>
+                <p><b>choose our product<br><br>&<br><br>taste the success</b></p>
+                <button>click to success</button>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="sc.js"></script>
+
+    </body>
+</html>
