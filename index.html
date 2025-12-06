@@ -152,7 +152,7 @@
 
             let model;
             const loader=new THREE.GLTFLoader();
-            loader.load("scene.gltf",(gltf)=>{
+            loader.load("scenes.gltf",(gltf)=>{
                 model=gltf.scene;
                 model.scale.set(1,1,1);
                 scene.add(model);
@@ -174,3 +174,4 @@
         </script>
     </body>
 </html>
+
